@@ -7,8 +7,8 @@ from s3_utils import S3Utils
 from sim_utils import preprocess_objects_to_keys, find_image_files_and_store_paths, upload_file_to_s3, download_file_from_s3
 
 EXPIRY_TIME=1800 # 30mins
-ACCESS_KEY='AKIA4UQN57YSYG4VU3ND'
-SECRET_KEY='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'
+ACCESS_KEY=''
+SECRET_KEY=''
 BUCKET_NAME='s3-upload-download-test2'
 LOCAL_UPLOAD_DIR='/workspaces/s3-upload-download/upload-download-test/data-to-upload'
 TARGET_S3_PREFIX_DIR='cache'
